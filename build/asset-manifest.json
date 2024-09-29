@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/webdev-solo-project-app/static/css/main.f7034e00.css",
+    "main.js": "/webdev-solo-project-app/static/js/main.d641e8fb.js",
+    "static/media/KronaOne-Regular.ttf": "/webdev-solo-project-app/static/media/KronaOne-Regular.97c7e647eef168b16a0b.ttf",
+    "static/media/MaziusDisplay-Regular.otf": "/webdev-solo-project-app/static/media/MaziusDisplay-Regular.1657ce25c16b4726e354.otf",
+    "static/media/MaziusDisplay-Extraitalic.otf": "/webdev-solo-project-app/static/media/MaziusDisplay-Extraitalic.6e590bf25b1848d03021.otf",
+    "index.html": "/webdev-solo-project-app/index.html",
+    "main.f7034e00.css.map": "/webdev-solo-project-app/static/css/main.f7034e00.css.map",
+    "main.d641e8fb.js.map": "/webdev-solo-project-app/static/js/main.d641e8fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7034e00.css",
+    "static/js/main.d641e8fb.js"
+  ]
+}
