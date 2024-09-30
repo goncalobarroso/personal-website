@@ -106,7 +106,6 @@ const PatternDraw = ({ width, height }) => {
         const canvas = document.querySelector('canvas'); // Get the canvas element
         if(!isCanvasBlank(canvas)){
             saveDrawing();
-            console.log("is blank!");
         } 
         window.location.href = 'https://goncalobarroso.github.io/personal-website/';
     }

@@ -25,6 +25,7 @@ const CustomPatternGenerator = ({ imageArray }) => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
+    let folderNumber = 0;
     const canvas = canvasRef.current;
     const context = canvas.getContext('2d');
     const numRows = 15; // Number of rows
@@ -47,6 +48,22 @@ const CustomPatternGenerator = ({ imageArray }) => {
       };
     }
 
+    // Function to save a number to localStorage
+    function saveNumberToLocalStorage(number) {
+      localStorage.setItem('myNumber', number);  // Storing the number (it will be converted to a string)
+    }
+
+    // Function to get the number from localStorage
+    function getNumberFromLocalStorage() {
+      const savedNumber = localStorage.getItem('myNumber');
+      if (savedNumber !== null) {  // Check if the number exists in localStorage
+          const parsedNumber = parseInt(savedNumber, 10);  // Convert the stored string back to a number
+          return parsedNumber;
+      } else {
+          return null;  // Return null if nothing is found
+      }
+    }
+
     // Define arrays of patterns (images) for each folder
     const patternFolders = [
       [pattern1_1, pattern1_2, pattern1_3, pattern1_4],
@@ -55,9 +72,11 @@ const CustomPatternGenerator = ({ imageArray }) => {
       [pattern4_1, pattern4_2, pattern4_3, pattern4_4],
     ];
 
-    // Generate the grid of squares with random rotations and images
-    const numberOfFolders = 4; // Number of pattern folders
-    const folderNumber = Math.floor(Math.random() * numberOfFolders); // Randomly choose a folder
+    const previousFolderNumber = getNumberFromLocalStorage();
+    if(previousFolderNumber !== null){
+      folderNumber = (previousFolderNumber+1)%4;
+    }
+    saveNumberToLocalStorage(folderNumber);
 
     for (let row = 0; row < numRows; row++) {
       for (let col = 0; col < numCols; col++) {
