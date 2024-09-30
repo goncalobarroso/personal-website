@@ -108,7 +108,7 @@ const PatternDraw = ({ width, height }) => {
             saveDrawing();
             console.log("is blank!");
         } 
-        window.location.href = '/';
+        window.location.href = 'https://goncalobarroso.github.io/personal-website/';
     }
 
     return (
