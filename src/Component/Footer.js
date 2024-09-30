@@ -1,7 +1,7 @@
 function Footer() {
     return (
       <footer className="footer">
-        &copy; 2023 Gonçalo Barroso
+        &copy; 2024 Gonçalo Barroso
       </footer>
     );
 }

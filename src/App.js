@@ -8,7 +8,7 @@ import PatternPage from './PatternPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/personal-website">
       <Routes>
         <Route path="/" element={<HomePage />} /> {}
         <Route path="/about" element={<AboutPage />} /> {}

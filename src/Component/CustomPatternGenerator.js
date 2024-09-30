@@ -50,10 +50,10 @@ const CustomPatternGenerator = ({ imageArray }) => {
   // Function to get a default image URL based on random value
   function getDefaultImageUrl(randomValue, folderNumber) {
     const defaultImageUrls = [
-      `./pattern${folderNumber}/pattern1.png`,
-      `./pattern${folderNumber}/pattern2.png`,
-      `./pattern${folderNumber}/pattern3.png`,
-      `./pattern${folderNumber}/pattern4.png`,
+      `${process.env.PUBLIC_URL}/patterns/pattern${folderNumber}/pattern1.png`,
+      `${process.env.PUBLIC_URL}/patterns/pattern${folderNumber}/pattern2.png`,
+      `${process.env.PUBLIC_URL}/patterns/pattern${folderNumber}/pattern3.png`,
+      `${process.env.PUBLIC_URL}/patterns/pattern${folderNumber}/pattern4.png`,
     ];
 
     if (randomValue < 0.25) {
