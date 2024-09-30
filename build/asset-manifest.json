@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.9c1883a2.css",
-    "main.js": "/personal-website/static/js/main.6e20b962.js",
+    "main.js": "/personal-website/static/js/main.4d4aaa4e.js",
     "static/media/KronaOne-Regular.ttf": "/personal-website/static/media/KronaOne-Regular.97c7e647eef168b16a0b.ttf",
     "static/media/MaziusDisplay-Regular.otf": "/personal-website/static/media/MaziusDisplay-Regular.1657ce25c16b4726e354.otf",
     "static/media/MaziusDisplay-Extraitalic.otf": "/personal-website/static/media/MaziusDisplay-Extraitalic.6e590bf25b1848d03021.otf",
+    "static/media/logo.svg": "/personal-website/static/media/logo.fb5742a6d48eaa35730ec4dd7134ae43.svg",
     "index.html": "/personal-website/index.html",
     "main.9c1883a2.css.map": "/personal-website/static/css/main.9c1883a2.css.map",
-    "main.6e20b962.js.map": "/personal-website/static/js/main.6e20b962.js.map"
+    "main.4d4aaa4e.js.map": "/personal-website/static/js/main.4d4aaa4e.js.map"
   },
   "entrypoints": [
     "static/css/main.9c1883a2.css",
-    "static/js/main.6e20b962.js"
+    "static/js/main.4d4aaa4e.js"
   ]
 }

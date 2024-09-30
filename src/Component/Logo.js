@@ -10,7 +10,7 @@ function Logo() {
     return (
         <div className="logo-container">
             {isHomePage ? (
-                <a href={window.location.href}>
+                <a href={"https://goncalobarroso.github.io/personal-website/"}>
                     <img className="logo" src={logo} alt="Logo" />
                 </a>
             ) : (
